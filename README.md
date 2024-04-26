@@ -1,4 +1,4 @@
-These are my solutions for the CS50x course I took in 2023. Each problem scored 100%, according to check50's opinion. 
+These are my solutions for the [CS50x course](https://cs50.harvard.edu/x/2023/) I took in 2023. Each problem scored 100%, according to check50's opinion. 
 
 ## About the course
 CS50x is an introductory computer science course from Harvard University. Topics include abstraction, algorithms, data structures, encapsulation, resource management, security, software engineering, and web programming. Languages include C, Python, and SQL plus HTML, CSS, and JavaScript. To get a certificate, the student has to solve 9 problem sets, submit 9 labs plus a capstone project.
