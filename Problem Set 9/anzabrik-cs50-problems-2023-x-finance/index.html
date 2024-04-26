@@ -1,0 +1,36 @@
+{% extends "layout.html" %}
+
+{% block title %}
+    Welcome
+{% endblock %}
+
+{% block main %}
+
+    <table class="table table-striped">
+        <tr>
+            <th>Symbol</th>
+            <th>Shares</th>
+            <th>Price</th>
+            <th>TOTAL</th>
+        </tr>
+        {% for row in rows_symbol_shares %}
+        <tr>
+            <td>{{ row["symbol"] }}</td>
+            <td>{{ row["overall_number"] }}</td>
+            <td>{{ row["current_price"] | usd }}</td>
+            <td>{{ row["value_of_holding"] | usd }}</td>
+        </tr>
+        {% endfor %}
+        <tr>
+            <td colspan="3">CASH</td>
+            <td>{{ current_balance | usd }}</td>
+        </tr>
+        <tr>
+            <td colspan="3">GRAND TOTAL</td>
+            <td>{{ grand_total | usd }}</td>
+        </tr>
+    </table>
+
+
+{% endblock %}
+

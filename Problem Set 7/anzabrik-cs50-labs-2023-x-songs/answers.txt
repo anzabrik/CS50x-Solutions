@@ -1,0 +1,5 @@
+To correctly characterize 'audio aura' of the songs provided in the database, I would have had to not only
+do some calculations base on this database, but also compare them to similar calculations for other users.
+Otherwise, I could assume that the song is "bold" if its "boldness" is 7 out of 10, but then I would find
+out that 90% of users have songs in their lists with 'boldness' rated at 8 out of 10.
+To sum up, I need info on other users to count this "aura".

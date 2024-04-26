@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet">
+        <link href="styles.css" rel="stylesheet">
+        <title>Trivia!</title>
+        <script src="general.js">
+        </script>
+    </head>
+    <body>
+        <div class="header">
+            <h1>Trivia!</h1>
+        </div>
+
+        <div class="container">
+            <div class="section">
+                <h2>Part 1: Multiple Choice </h2>
+                <hr>
+                <h3>What's the distance from the Earth to the Sun?</h3>
+                <button type="button" id="wr" onclick="wrong(this.id);">150000 km</button>
+                <button type="button" id="wr1" onclick="wrong(this.id);">15000 km</button>
+                <button type="button" id="wr2" onclick="wrong(this.id);">15000 cm</button>
+                <button type="button" id="gm" onclick="right(this.id);">150 million km</button>
+                <p id="result"></p>
+            </div>
+
+            <div class="section">
+                <h2>Part 2: Free Response</h2>
+                <hr>
+                <h3>Which planet has the largest mass</h3>
+                <input type="text" name="mass" id="answer">
+                <button type="submit" id="msb"  onclick="boy("answer")";>Submit</button>
+                <p id="result1"></p>
+            </div>
+        </div>
+    </body>
+</html>

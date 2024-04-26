@@ -1,0 +1,7 @@
+#align-pls {object-fit: scale-down;}
+h1 {font-size:medium;}
+body {background-color:MintCream;}
+#table-head {text-transform:uppercase;}
+table, th, td {
+    border: 1px solid;
+  }
