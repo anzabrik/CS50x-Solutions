@@ -7,3 +7,10 @@ These are my solutions for the [CS50x course](https://cs50.harvard.edu/x/2023/),
 CS50x is an introductory computer science course from Harvard University. Topics include abstraction, algorithms, data structures, encapsulation, resource management, security, software engineering, and web programming. Languages include C, Python, and SQL plus HTML, CSS, and JavaScript. To get a certificate, the student has to solve 9 problem sets, submit 9 labs plus a capstone project.
 
 Instructors: David J. Malan, Carter Zenke, Brian Yu, Doug Lloyd.
+
+## Capstone
+The capstone project is a Flask-based web app called Rucola Maze, which keeps track of the restaurant inventory and purchases:
+- website (demo version)
+- code
+
+I've also made a Django version of this app featuring the same functionality.
