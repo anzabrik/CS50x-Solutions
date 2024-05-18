@@ -10,9 +10,9 @@ Instructors: David J. Malan, Carter Zenke, Brian Yu, Doug Lloyd.
 
 ## Capstone
 The capstone project is a Flask-based web app called Rucola Maze, which keeps track of the restaurant inventory and purchases:
-- website (demo version)
-- [code (GitHub repository)](https://github.com/anzabrik/Flask-Rucola-Maze)
+- [code (GitHub)](https://github.com/anzabrik/Flask-Rucola-Maze)
+- [video demo](https://youtu.be/FuucjgUQ8Vg)
 
 I've also made a Django version of this app featuring the same functionality:
-- website (demo version)
 - [code (GitHub repository)](https://github.com/anzabrik/Django-Rucola-Maze)
+- [video demo](https://youtu.be/4m2JK5gQPnw)
